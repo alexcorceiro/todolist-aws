@@ -1,0 +1,114 @@
+.home-container {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .home-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .home-input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 50vw;   
+  }
+
+  .input-status {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .add-button {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .update-button {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .delete-button {
+    background-color: #dc3545;
+    color: #fff;
+    margin-left: 10px;
+  }
+  
+  .edit-button {
+    background-color: #ffc107;
+    color: #fff;
+    margin-left: 10px;
+  }
+  
+  .todo-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    width: 80vw;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    max-height: 50vh;
+  }
+  
+  .todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .todo-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 1rem;
+  }
+  
+  .todo-title {
+    font-weight: bold;
+    width: 10vw;
+  }
+  
+  .todo-item.completed {
+    background-color: #d4edda;
+  }
+  
+  .todo-item.in_progress {
+    background-color: #fff3cd;
+  }
+  
+  .todo-item.pending {
+    background-color: #f8d7da;
+  }
+  

@@ -1,0 +1,29 @@
+.register{
+    width: 100%;
+    height: auto;
+}
+
+.register-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    gap: 1rem;
+}
+
+.register-input{
+border: none;
+border-bottom: 1px solid #ccc;
+padding: 1rem 2rem;
+background-color: #e9e7e7;
+}
+
+.register-btn{
+    background-color: #4caf50;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}

@@ -1,0 +1,16 @@
+type Todo @model @auth(rules: [
+  { allow: owner, operations: [create, read, update, delete] }
+]) {
+  id: ID!
+  title: String!
+  description: String
+  status: TodoStatus!
+  owner: String
+}
+
+
+enum TodoStatus {
+  PENDING
+  IN_PROGRESS
+  COMPLETED
+}
